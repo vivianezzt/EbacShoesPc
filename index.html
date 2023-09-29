@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>EBAC Shoes</title>
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom shadow-sm mb-3">
+    <div class="container">
+      <a class="navbar-brand" href="#"><strong>EBAC Shoes</strong></a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse">
+        <ul class="navbar-nav flex-grow-1">
+          <li class="nav-item"><a href="#" class="nav-link text-white">Produtos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-white">Política de privacidade</a></li>
+        </ul>
+      </div>
+      <div class="align-self-end">
+        <ul class="nav navbar-nav nav-pills">
+            <li class="nav-item"><a class="nav-link active" href="#inicio">ÍNICIO</a></li>
+            <li class="nav-item"><a class="nav-link" href="#produto">PRODUTOS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#promocoes">PROMOÇÕES</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato">CONTATO</a></li>
+        </ul>
+    </div>
+    <button id="btn-checar-emails" type="button" class="btn btn-info">Checar caixa de entrada</button>
+    </div>
+  </nav>
+    <div class="container">
+     <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="1000" class="carousel-item active">
+                <img class="d-block w-100" src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="lofi">
+                <div class="carousel-caption">
+                    <h2>Mac Os Pro</h2>
+                </div>
+            </div>
+            <div data-bs-interval="1000" class="carousel-item active">
+                <img class="d-block w-100" src="https://images.pexels.com/photos/3829226/pexels-photo-3829226.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="lofi">
+                <div class="carousel-caption">
+                    <h2>Teclado Gamer K68</h2>
+                </div>
+            </div>
+            <div data-bs-interval="1000" class="carousel-item active">
+                <img class="d-block w-100" src="https://images.pexels.com/photos/17840843/pexels-photo-17840843/free-photo-of-computador-dados-informacoes-mesa.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="lofi">
+                <div class="carousel-caption">
+                    <h2>Computador para Edição de vídeos</h2>
+                </div>
+            </div>
+        </div>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button id="#carouselMain" type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+            <button id="#carouselMain"  type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+            <button id="#carouselMain"  type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+   </div>
+    <main>
+        <div class="modal" id="exemplo-modal" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Cadastre-se em nossa loja</h5>
+                    <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Crie sua conta e compre os produtos que desejar enviamos para todo o Brasil</p>
+                </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-success" data-bs-dismiss="modal">Criar conta</button>
+                   <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar conta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="produto" class="text-center mb-3">
+       <div class="container">
+         <div class="tb-content">
+            <div class="row">
+                <div class="col-md-12">
+                  <h2>Tudo para você montar o Pc dos sonhos</h2>
+                  <div class="container g-0">
+                    <div class="row">
+                      <div class="col-md-4 post">
+                        <img src="https://images.pexels.com/photos/3520694/pexels-photo-3520694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="240" height="240">
+                        <h5>Placa mãe</h5>
+                        <time>28/09/2023 17:17</time>
+                        <a class="btn btn-primary btn-sm">Leia mais</a>
+                      </div>
+                      <div class="col-md-4 post">
+                        <img src="https://images.pexels.com/photos/3812048/pexels-photo-3812048.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1https://via.placeholder.com/180x180" width="240" height="240">
+                        <h5>Teclado Gamer</h5>
+                        <time>28/09/2023 17:17</time>
+                        <a class="btn btn-primary btn-sm">Leia mais</a>
+                      </div>
+                      <div class="col-md-4 post">
+                        <img src="https://images.pexels.com/photos/7915357/pexels-photo-7915357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="240" height="240">
+                        <h5>Monitor Gamer</h5>
+                        <time>28/09/2023 17:17</time>
+                        <a class="btn btn-primary btn-sm">Leia mais</a>
+                      </div>
+                      <div class="col-md-4 post">
+                        <img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="240" height="240">
+                        <h5>Fone Gamer</h5>
+                        <time>28/09/2023 17:17</time>
+                        <a class="btn btn-primary btn-sm">Leia mais</a>
+                      </div>
+                      <div class="col-md-4 post">
+                        <img src="https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="240" height="240">
+                        <h5>Mouse Gamer</h5>
+                        <time>28/09/2023 17:17</time>
+                        <a class="btn btn-primary btn-sm">Leia mais</a>
+                      </div>
+                      <div class="col-md-4 post">
+                        <img src="https://gigabytetecnologias.com.br/wp-content/uploads/2022/09/IMG_3941-1-scaled.jpg" width="240" height="240">
+                        <h5>Titulo da postagem</h5>
+                        <time>28/09/2023 17:17</time>
+                        <a href="#" class="btn btn-primary btn-sm">Leia mais</a>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>        
+       </div>
+    </section>
+     <section id="about" class="about-section-padding">
+      <div class="contianer">
+        <div class="row">
+          <div class="col-lg col-md-12 col-12">
+            <div class="abaout-img">
+              <img src="/img/computador.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg col-md-12 col-12 pc-lg-5 mt-md-5">
+            <div class="about-text">
+              <h2>Nós garantimos a qualidade<br> de nossos serviços</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatum eligendi sequi. Sapiente, omnis quae dignissimos placeat, ipsam sed quibusdam vel voluptatibus non porro voluptatem alias perferendis quisquam laboriosam possimus.</p>
+              <a href="#" class="btn btn-warning">Leia mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services section-padding">
+      <div class="container">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2>Outros serviços</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum possimus accusantium voluptatum reprehenderit placeat quas consectetur doloribus ipsa? Laboriosam repudiandae tempora vero! Eos tenetur corrupti saepe corporis illo quia ipsum.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid">
+    <section class="container">
+      <section class="row">
+        <article class="col-md-4">
+          <h4>Atendimento</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a href="tel:+5511999999999">(11) 9 9999 9999</a></li>
+            <li class="nav-item"><a href="mailto:contato@sualoja.com.br">contato@sualoja.com.br</a></li>
+            <li class="nav-item"> Horário de atendimento on-line: Segunda à sexta das 9:00 até as 17:30h</li>
+          </ul>
+        </article>
+        <article class="col-md-3">
+          <h4>
+            Institucional
+          </h4>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="#">Sobre a loja</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Politica e privacidade</a>
+            </li>
+          </ul>
+        </article>  
+      </section>
+    </section>
+  </footer>
+    </footer>
+    <script src="./lib/bootstrap.bundle.min.js" data-bs-dismiss="modal"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            const modalExemplo = new bootstrap.Modal('#exemplo-modal')
+            setTimeout(function(){
+                modalExemplo.show()
+            }, 3000)
+        })
+    </script>
+    </main>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

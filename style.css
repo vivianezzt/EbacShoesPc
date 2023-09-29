@@ -1,0 +1,21 @@
+footer {
+    background: #343A40;
+    padding: 25px 0;
+    color: #FFF;
+  }
+  footer a {
+    color: #FFF;
+  }
+  footer a:hover {
+    color: #FFF;
+  }
+  footer h4 {
+    color: #FFC107;
+    font-size: 19px;
+  }
+  footer ul li.ellipsis {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
